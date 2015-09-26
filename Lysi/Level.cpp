@@ -172,7 +172,8 @@ void Level::processPlayerMove(Player &player, int targetX, int targetY, char pla
 			}
 		}
 		else {
-			setTile(playerX, playerY, ' ');
+			if (getTile(playerX, playerY) != '\\')
+				setTile(playerX, playerY, ' ');
 			player.setPosition(targetX, targetY);
 		}
 	default:
