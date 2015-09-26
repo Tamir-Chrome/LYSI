@@ -68,7 +68,6 @@ char Enemy::getEnemyMove(int playerX, int playerY)
 	int ady = abs(dy); // abs for dy
 
 	distance = adx + ady;
-
 	if (distance <= 5) {
 		// Moving along x
 		if (adx > ady) 
