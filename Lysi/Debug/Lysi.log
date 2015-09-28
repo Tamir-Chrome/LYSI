@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+﻿Build started 27/09/2015 00:16:30.
+     1>Project "D:\Documents\Visual Studio 2013\Projects\LYSI\Lysi\Lysi.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Level.cpp
+         Level.cpp
+     1>d:\documents\visual studio 2013\projects\lysi\lysi\level.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\lysi\lysi\level.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\lysi\lysi\level.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\lysi\lysi\level.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\lysi\lysi\level.cpp(194): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\documents\visual studio 2013\projects\lysi\lysi\level.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Program Files (x86)\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.lib" /MACHINE:X86 Debug\Block.obj
+=======
 ﻿Build started 27/09/2015 00:37:11.
      1>Project "C:\Users\Ariel\Documents\Visual Studio 2013\Projects\LYSI\Lysi\Lysi.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
@@ -5,6 +20,7 @@
          Level.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ariel\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ariel\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ariel\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.lib" /MACHINE:X86 Debug\Block.obj
+>>>>>>> Ariel
          Debug\Engine.obj
          Debug\Level.obj
          Debug\Linker.obj
@@ -12,9 +28,18 @@
          Debug\Enemy.obj
          Debug\Map.obj
          Debug\Player.obj
+<<<<<<< HEAD
+         Lysi.vcxproj -> D:\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.exe
+     1>Done Building Project "D:\Documents\Visual Studio 2013\Projects\LYSI\Lysi\Lysi.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07
+=======
          Lysi.vcxproj -> C:\Users\Ariel\Documents\Visual Studio 2013\Projects\LYSI\Debug\Lysi.exe
      1>Done Building Project "C:\Users\Ariel\Documents\Visual Studio 2013\Projects\LYSI\Lysi\Lysi.vcxproj" (Build target(s)).
 
 Build succeeded.
 
 Time Elapsed 00:00:01.60
+>>>>>>> Ariel

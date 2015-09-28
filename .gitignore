@@ -214,3 +214,11 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+*.pdb
+Lysi/Debug/vc120.idb
+*.idb
+*.tlog
+Lysi/Debug/Linker.obj
+*.exe
+Debug/Lysi.exe
+*.ilk
