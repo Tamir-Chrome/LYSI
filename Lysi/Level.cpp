@@ -151,6 +151,8 @@ void Level::processPlayerMove(Player &player, int targetX, int targetY, char pla
 		player.setPosition(targetX, targetY);
 		break;
 	case '#':
+		if (getTile(playerX, playerY) != '\\')
+			setTile(playerX, playerY, playerFace);
 		break;
 	case '\\':
 		if (playerFace == '.')
