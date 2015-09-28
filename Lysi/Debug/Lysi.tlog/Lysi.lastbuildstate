@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+<<<<<<< HEAD
 Debug|Win32|D:\Documents\Visual Studio 2013\Projects\LYSI\|
+=======
+Debug|Win32|C:\Users\Ariel\Documents\Visual Studio 2013\Projects\LYSI\|
+>>>>>>> Ariel
