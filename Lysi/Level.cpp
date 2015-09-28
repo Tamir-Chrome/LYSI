@@ -20,9 +20,9 @@ void Level::processLevel(Player &player)
 {
 	char tile;
 	_enemies.clear();
-	for (int i = 0; i < _levelData.size(); i++)
+	for (int i = 0; i < (int)_levelData.size(); i++)
 	{
-		for (int j = 0; j < _levelData[i].size(); j++)
+		for (int j = 0; j < (int)_levelData[i].size(); j++)
 		{
 			tile = _levelData[i][j];
 			switch (tile)
@@ -69,7 +69,7 @@ void Level::load(string mapName, Player &player)
 
 	bool isMapListed = false; // is map in mapList in vector
 
-	for (int i = 0; i < _mapList.size(); i++)
+	for (int i = 0; i < (int)_mapList.size(); i++)
 	{
 		if (mapName == _mapList[i].getMapName())
 		{
@@ -90,7 +90,7 @@ void Level::load(string mapName, Player &player)
 void Level::print()
 {
 	string line;
-	for (int i = 0; i < _levelData.size(); i++)
+	for (int i = 0; i < (int)_levelData.size(); i++)
 	{
 		printf("%s\n", _levelData[i].c_str());
 	}
@@ -151,6 +151,8 @@ void Level::processPlayerMove(Player &player, int targetX, int targetY, char pla
 		player.setPosition(targetX, targetY);
 		break;
 	case '#':
+		if (getTile(playerX, playerY) != '\\')
+			setTile(playerX, playerY, playerFace);
 		break;
 	case '\\':
 		if (playerFace == '.')
@@ -189,7 +191,7 @@ void Level::updateEnemy(Player &player)
 
 	player.getPosition(playerX, playerY);
 
-	for (int i = 0; i < _enemies.size(); i++) {
+	for (int i = 0; i < (int)_enemies.size(); i++) {
 
 		enemyMove = _enemies[i].getEnemyMove(playerX, playerY);
 		_enemies[i].getPosition(enemyX, enemyY);
@@ -254,7 +256,7 @@ void Level::battleMonster(Player &player, int targetX, int targetY)
 	int attackRoll, attackResluts;
 
 	player.getPosition(playerX, playerY);
-	for (int i = 0; i < _enemies.size(); i++)
+	for (int i = 0; i < (int)_enemies.size(); i++)
 	{
 		_enemies[i].getPosition(enemyX, enemyY);
 		if (targetX == enemyX && targetY == enemyY)

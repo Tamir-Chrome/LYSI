@@ -26,8 +26,6 @@ public:
 	//Getters
 	char getTile(int x, int y);
 
-	
-
 private:
 	void processEnemyMove(Player &player, int enemyIndex, int targetX, int targetY);
 	void processPlayerMove(Player &player, int targetX, int targetY, char playerFace);
@@ -38,4 +36,3 @@ private:
 	std::vector <Enemy> _enemies;
 	std::vector <Map> _mapList; // name of all the maps to load
 };
-
